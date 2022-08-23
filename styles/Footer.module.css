@@ -1,0 +1,12 @@
+.footerNavList.getInTouchBox li a {
+    color: #002441;
+}
+.footerNavList li {
+    font-size: 16px;
+    color: #798e9b;
+    margin-bottom: 15px;
+}
+.footerNavList.getInTouchBox li a img {
+    max-width: 20px;
+    margin-right: 7px;
+}
