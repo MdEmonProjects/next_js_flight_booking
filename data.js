@@ -3,18 +3,18 @@ export default{
         maxRoom: 10,
     },
     bannerImage:[
-        {imageLocation: "https://andit.co/projects/html/and-tour/assets/img/banner/bg.png",alt:"banner image"},
-        {imageLocation: "https://swiperjs.com/demos/images/nature-2.jpg",alt:"banner image"},
-        {imageLocation: "https://andit.co/projects/html/and-tour/assets/img/banner/bg.png",alt:"banner image"},
-        {imageLocation: "https://swiperjs.com/demos/images/nature-4.jpg",alt:"banner image"},
+        {imageLocation: "/bg.png",alt:"banner image"},
+        {imageLocation: "/banner-two-bg-1.png",alt:"banner image"},
+        {imageLocation: "/bg.png",alt:"banner image"},
+        {imageLocation: "/banner-two-bg-1.png",alt:"banner image"},
     ],
     cardImage:[
-        {imageLocation: "https://andit.co/projects/html/and-tour/assets/img/imagination/imagination3.png",alt:"banner image"},
-        {imageLocation: "https://andit.co/projects/html/and-tour/assets/img/imagination/imagination2.png",alt:"banner image"},
-        {imageLocation: "https://andit.co/projects/html/and-tour/assets/img/imagination/imagination1.png",alt:"banner image"},
-        {imageLocation: "https://andit.co/projects/html/and-tour/assets/img/imagination/imagination3.png",alt:"banner image"},
-        {imageLocation: "https://andit.co/projects/html/and-tour/assets/img/imagination/imagination2.png",alt:"banner image"},
-        {imageLocation: "https://andit.co/projects/html/and-tour/assets/img/imagination/imagination1.png",alt:"banner image"},
+        {imageLocation: "/imagination3.png",alt:"Slider Image"},
+        {imageLocation: "/imagination2.png",alt:"Slider Image"},
+        {imageLocation: "/imagination1.png",alt:"Slider Image"},
+        {imageLocation: "/imagination3.png",alt:"Slider Image"},
+        {imageLocation: "/imagination2.png",alt:"Slider Image"},
+        {imageLocation: "/imagination1.png",alt:"Slider Image"},
     ],
 
     airlinePartners:[

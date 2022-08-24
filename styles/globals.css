@@ -3,6 +3,7 @@
 @tailwind utilities;
 :root {
   --button-bg: #0d6efd;
+  --main-color: #2095AE;
 }
 * {
   margin: 0;

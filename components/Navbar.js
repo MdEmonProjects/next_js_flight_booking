@@ -24,20 +24,14 @@ function Navbar() {
                     </div>
                     <div className="dash-menu">
                         <ul className="flex flex-col items-start">
-                            <li className="col-block">
-                                <a href="#">Faça login</a>
+                            <li>
+                                <a href="#">Flights</a>
                             </li>
-                            <li className="col-block">
-                                <a href="#">Registrar-se</a>
+                            <li>
+                                <a href="#">About us</a>
                             </li>
-                            <li className="col-hidden">
-                                <a href="#">item</a>
-                            </li>
-                            <li className="col-hidden">
-                                <a href="#">item</a>
-                            </li>
-                            <li className="col-hidden">
-                                <a href="#">item</a>
+                            <li>
+                                <a href="#">Contact</a>
                             </li>
                         </ul>
                     </div>

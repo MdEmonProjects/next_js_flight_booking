@@ -1,9 +1,9 @@
 import React from 'react';
 import { useState, Fragment } from 'react';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
-import { faSearch, faPlus, faMinus } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
-import { RadioGroup, Menu, Transition, Popover } from '@headlessui/react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
+import { Transition, Popover } from '@headlessui/react';
 
 function FlightPasenger() {
     const [dropdownStatus, setDropdoenStatus] = useState(false);
