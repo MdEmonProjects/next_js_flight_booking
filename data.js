@@ -16,7 +16,6 @@ export default{
         {imageLocation: "/imagination2.png",alt:"Slider Image"},
         {imageLocation: "/imagination1.png",alt:"Slider Image"},
     ],
-
     airlinePartners:[
         {imageLocation: "/Layer-25.png",alt: "varcel"},
         {imageLocation: "/Layer-26.png",alt: "varcel"},
@@ -144,6 +143,55 @@ export default{
             id: 4,
             name: "SEA PEARL BEACH RESORT & SPA - COXSBAZAR"
         },
+    ],
+    counterData: [
+        {
+            name: "Flight Booking",
+            maxCount: 600,
+            imageLocation: "/"
+        },
+        {
+            name: "Amazing Tour",
+            maxCount: 250,
+            imageLocation: "/"
+        },
+        {
+            name: "Cruises Booking",
+            maxCount: 100,
+            imageLocation: "/"
+        },
+        {
+            name: "Ticket Booking",
+            maxCount: 100,
+            imageLocation: "/"
+        }
+    ],
+    chooseUsImage: [
+        {
+            imageLocation:"/services.png",
+            name: "PERSONALIZED SERVICE",
+            alt: "choose us image",
+            id: 1
+        },
+        {
+            imageLocation:"/support.png",
+            name: "24X7 SUPPORT",
+            alt: "choose us image",
+            id: 2
+        },
+        {
+            imageLocation:"/services.png",
+            name: "PERSONALIZED SERVICE",
+            alt: "choose us image",
+            id: 3
+        },
+        {
+            imageLocation:"/support.png",
+            name: "24X7 SUPPORT",
+            alt: "choose us image",
+            id: 4
+        },
     ]
+
 
 }

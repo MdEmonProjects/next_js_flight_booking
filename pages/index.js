@@ -5,8 +5,11 @@ import DatePicker from '../components/DatePicker';
 import LocationSearch from '../components/LocationSearch';
 import SelectDropDown from '../components/SelectDropDown';
 import database from '../data';
+import ChooseusTesttimonial from '../sections/ChooseusTesttimonial';
+import Counter from '../sections/Counter';
 import Imagenation from '../sections/Imagenation';
 import SearchTabs from '../sections/SearchTabs';
+
 
 
 export default function Home() {
@@ -20,6 +23,8 @@ export default function Home() {
       </div>
     </section>
     <Imagenation></Imagenation>
+    <Counter></Counter>
+    <ChooseusTesttimonial></ChooseusTesttimonial>
     {/* <section className='_brand_ pb-8'>
       <h5 className='text-center pt-8'>Key Airline Partners</h5>
       <div className='brand_images'>
