@@ -203,7 +203,7 @@ export default{
     ],
     testimonialSlider:[
         {
-
+            id: 0,
         }
     ],
     galleryImage:[ 

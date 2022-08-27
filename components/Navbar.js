@@ -14,13 +14,13 @@ function Navbar() {
                 <a href="/"><img src="gyan.png" /></a>
             </div>
             <div>
-                <a href="javascript:" className="menu-open" title="open canvas" onClick={openNav}>
+                <a className="menu-open" title="open canvas" onClick={openNav}>
                 <FontAwesomeIcon style={{ fontSize: "25px"}} icon={faBars}></FontAwesomeIcon>
                 </a>
 
                 <div className={navOpenStatus ? "off-canvas-menu active" : "off-canvas-menu"}>
                     <div className="close-menu">
-                        <a title="time" href="javascript:" className="close_nav" onClick={openNav}><FontAwesomeIcon style={{ fontSize: "25px"}} icon={faTimes}></FontAwesomeIcon></a>
+                        <a title="time" className="close_nav" onClick={openNav}><FontAwesomeIcon style={{ fontSize: "25px"}} icon={faTimes}></FontAwesomeIcon></a>
                     </div>
                     <div className="dash-menu">
                         <ul className="flex flex-col items-start">

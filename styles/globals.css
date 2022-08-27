@@ -585,6 +585,15 @@ section.imagenation_section {
 
 
 /* testimonial_section End */
+
+/* gallary_images_ start */
+.gallary_images_ .image .overly{
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 1) 100%);
+
+
+}
+/* gallary_images_ End */
+
 /* counter section start */
 .counter_bg {
   padding: 180px 0;
