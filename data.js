@@ -3,18 +3,18 @@ export default{
         maxRoom: 10,
     },
     bannerImage:[
-        {imageLocation: "/bg.png",alt:"banner image"},
-        {imageLocation: "/banner-two-bg-1.png",alt:"banner image"},
-        {imageLocation: "/bg.png",alt:"banner image"},
-        {imageLocation: "/banner-two-bg-1.png",alt:"banner image"},
+        {imageLocation: "/bg.png",alt:"banner image",id: 1},
+        {imageLocation: "/banner-two-bg-1.png",alt:"banner image",id: 2},
+        {imageLocation: "/bg.png",alt:"banner image",id: 3},
+        {imageLocation: "/banner-two-bg-1.png",alt:"banner image",id: 4},
     ],
     cardImage:[
-        {imageLocation: "/imagination3.png",alt:"Slider Image"},
-        {imageLocation: "/imagination2.png",alt:"Slider Image"},
-        {imageLocation: "/imagination1.png",alt:"Slider Image"},
-        {imageLocation: "/imagination3.png",alt:"Slider Image"},
-        {imageLocation: "/imagination2.png",alt:"Slider Image"},
-        {imageLocation: "/imagination1.png",alt:"Slider Image"},
+        {imageLocation: "/imagination3.png",alt:"Slider Image",id:1},
+        {imageLocation: "/imagination2.png",alt:"Slider Image",id:2},
+        {imageLocation: "/imagination1.png",alt:"Slider Image",id:3},
+        {imageLocation: "/imagination3.png",alt:"Slider Image",id:4},
+        {imageLocation: "/imagination2.png",alt:"Slider Image",id:5},
+        {imageLocation: "/imagination1.png",alt:"Slider Image",id:6},
     ],
     airlinePartners:[
         {imageLocation: "/Layer-25.png",alt: "varcel"},
@@ -29,35 +29,40 @@ export default{
             name: "mobile",
             imageLocation: "/Bangladesh-Flag.svg",
             alt: "Bangladesh-Flag",
-            data: "+8809611993344"
+            data: "+8809611993344",
+            id: 1
         },
         {
             name: "email",
             imageLocation: "/Email-Green-Icon.svg",
             alt: "Email-Green-Icon",
-            data: "bd.support@flyhub.com"
+            data: "bd.support@flyhub.com",
+            id: 2
         }
     ],
     footerNavMainbox:[
         {
             header: "Solutions",
             link: [
-                {route: "#",data: "For Travelers"},
+                {route: "#",data: "For Travelers",id: 10},
             ]
+            ,id: 1
 
         },
         {
             header: "Help & Policies",
             link: [
-                {route: "#",data: "Privacy Policy"},
+                {route: "#",data: "Privacy Policy",id: 20},
             ]
+            ,id: 2
 
         },
         {
             header: "Company",
             link: [
-                {route: "#",data: "About Us"},
+                {route: "#",data: "About Us",id: 30},
             ]
+            ,id: 3
 
         },
 
@@ -148,22 +153,26 @@ export default{
         {
             name: "Flight Booking",
             maxCount: 600,
-            imageLocation: "/"
+            imageLocation: "/",
+            id:1
         },
         {
             name: "Amazing Tour",
             maxCount: 250,
-            imageLocation: "/"
+            imageLocation: "/",
+            id:2
         },
         {
             name: "Cruises Booking",
             maxCount: 100,
-            imageLocation: "/"
+            imageLocation: "/",
+            id:3
         },
         {
             name: "Ticket Booking",
             maxCount: 100,
-            imageLocation: "/"
+            imageLocation: "/",
+            id:4
         }
     ],
     chooseUsImage: [
@@ -191,6 +200,44 @@ export default{
             alt: "choose us image",
             id: 4
         },
+    ],
+    testimonialSlider:[
+        {
+
+        }
+    ],
+    galleryImage:[ 
+        {
+            id: 1,
+            imageLocation: "/holiday-1.png",
+            alt: "holiday image"
+        },
+        {
+            id: 2,
+            imageLocation: "/holiday-2.png",
+            alt: "holiday image"
+        },
+        {
+            id: 3,
+            imageLocation: "/holiday-3.png",
+            alt: "holiday image"
+        },
+        {
+            id: 4,
+            imageLocation: "/holiday-4.png",
+            alt: "holiday image"
+        },
+        {
+            id: 6,
+            imageLocation: "/holiday-5.png",
+            alt: "holiday image"
+        },
+        {
+            id: 6,
+            imageLocation: "/holiday-6.png",
+            alt: "holiday image"
+        },
+
     ]
 
 

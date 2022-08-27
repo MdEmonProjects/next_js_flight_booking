@@ -33,7 +33,7 @@ function BannerImage() {
         {
             database.bannerImage.map(value=>{
                 return(
-                    <SwiperSlide key={value.imageLocation}>
+                    <SwiperSlide key={value?.id}>
                         <img src={value.imageLocation} alt={value.alt} />
                     </SwiperSlide>
                 )

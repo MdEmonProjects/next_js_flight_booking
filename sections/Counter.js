@@ -10,7 +10,7 @@ function Counter() {
     function renderCounter(value, index, arrayLength) {
         if (index === arrayLength - 1) {
             return (
-                <div key={value.name} className="counter_number text-center">
+                <div key={value?.id} className="counter_number text-center">
 
                     <ReactVisibilitySensor>
                         {({ isVisible }) =>
@@ -23,7 +23,7 @@ function Counter() {
             )
         }
         return (
-            <div key={value.name} className="counter_number text-center" style={{ marginRight: "100px" }}>
+            <div key={value?.id} className="counter_number text-center" style={{ marginRight: "100px" }}>
                 <ReactVisibilitySensor>
                         {({ isVisible }) =>
                             <h3>{isVisible ? <CountUp end={value.maxCount} duration={3} /> : value.maxCount}</h3>

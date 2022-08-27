@@ -13,13 +13,16 @@ function FlightPasenger() {
     let [plan, setPlan] = useState('startup');
     const plans = [
         {
-            name: 'Startup'
+            name: 'Startup',
+            id: 1
         },
         {
-            name: 'Business'
+            name: 'Business',
+            id: 2
         },
         {
-            name: 'Enterprise'
+            name: 'Enterprise',
+            id: 3
         },
     ]
     const [selected, setSelected] = useState(plans[0]?.name)
@@ -93,7 +96,7 @@ function FlightPasenger() {
                             {
                                 plans.map(value=>{
                                     return(
-                                        <div key={value.name} className='classList' onClick={()=>{setSelected(value.name)}}>
+                                        <div key={value.id} className='classList' onClick={()=>{setSelected(value.name)}}>
                                             <p className='text-gray-900 group w-full items-center py-2 px-4 text-sm'>{value.name}</p>
                                         </div>
                                     )

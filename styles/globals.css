@@ -499,6 +499,7 @@ button {
 }
 
 /* our_services End */
+
 /* why_choose_us start */
 .choose_us__testimonial{
   padding: 120px 0px;
@@ -516,7 +517,28 @@ button {
   margin-bottom: 20px;
   font-size: 14px;
 }
+.choose_us_image_bg{
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.7) 100%);
+}
+.choose_us_images .item_image h2{
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
 
+.choose_us_images:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 70px;
+  height: 70px;
+  background: #fff;
+  margin: 0;
+  border-radius: 50%;
+  z-index: 2;
+  transform: translate(-50%,-50%);
+}
 /* why_choose_us End */
 
 a.newslatter_btn {
@@ -531,6 +553,38 @@ a.newslatter_btn {
 section.imagenation_section {
   padding: 100px 0px;
 }
+/* testimonial_section start */
+.testimonial_slider .testimonial_swiper_ .comment p{
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  color: #838383;
+}
+.testimonial_slider .testimonial_swiper_ .writer-name h4{
+  font-size: 16px;
+  color: var(--main-color);
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.testimonial_slider .testimonial_swiper_ .writer-position h4{
+  font-size: 14px;
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+.swiper-pagination-bullet{
+  transition: all .5s;
+}
+.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main{
+  width: 20px;
+  height: 4px;
+  border-radius: 5px;
+  background: var(--main-color);
+
+}
+
+
+/* testimonial_section End */
 /* counter section start */
 .counter_bg {
   padding: 180px 0;

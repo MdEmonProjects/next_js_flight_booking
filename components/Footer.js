@@ -15,7 +15,7 @@ function Footer() {
                 {
                     database.contactInfo.map(value=>{
                         return(
-                            <li key={value.name}>
+                            <li key={value?.id}>
                                 <a href={value.name == "mobile" ? "tel:"+value.data : "mailto:"+value.data}>
                                     <Image src={value.imageLocation} width={20} height={20}></Image>
                                     {value.data}
@@ -31,14 +31,14 @@ function Footer() {
         {
             database.footerNavMainbox.map(value=>{
                 return(
-                    <div className='navMainBox' key={value.header}>
+                    <div className='navMainBox' key={value?.id}>
                         <div className='footer-heading mb-8'>
                             <h6>{value.header}</h6>
                         </div>
                         <ul className='footerNavList'>
                             {value?.link.map(val=>{
                                 return(
-                                    <li key={val.data}>
+                                    <li key={val?.id}>
                                         <a href={val.route}>{val.data}</a>
                                     </li>
                                 );

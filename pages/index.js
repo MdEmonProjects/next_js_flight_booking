@@ -7,6 +7,7 @@ import SelectDropDown from '../components/SelectDropDown';
 import database from '../data';
 import ChooseusTesttimonial from '../sections/ChooseusTesttimonial';
 import Counter from '../sections/Counter';
+import ExploreGallery from '../sections/exploreGallery';
 import Imagenation from '../sections/Imagenation';
 import SearchTabs from '../sections/SearchTabs';
 
@@ -25,6 +26,7 @@ export default function Home() {
     <Imagenation></Imagenation>
     <Counter></Counter>
     <ChooseusTesttimonial></ChooseusTesttimonial>
+    <ExploreGallery></ExploreGallery>
     {/* <section className='_brand_ pb-8'>
       <h5 className='text-center pt-8'>Key Airline Partners</h5>
       <div className='brand_images'>
@@ -105,6 +107,7 @@ export default function Home() {
           <h2 className='text-5xl text-white mb-8'>Let’s make the travel <br/>experience amazing together.</h2>
           <div className="columnBlock">
             <a href="#" className="newslatter_btn">Sign Up Now</a>
+            <div className='image-overly absolute top-0 left-0 w-full h-full flex justify-center items-end bg-black-500 bg-sky-500/10 bg-black-500/50 m-2.5 hover:scale-110 pointer-events-none transition-all duration-500 text-right ml-0 sm:ml-8 pl-4 mr-8'></div>
           </div>
         </div>
       </div>
